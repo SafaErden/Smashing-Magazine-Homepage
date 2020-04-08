@@ -1,0 +1,24 @@
+{
+  "name": "Smashing-Magazine-Homepage",
+  "version": "1.0.0",
+  "description": "A replica of the smashing magazine homepage\r ![A Snapshot of smashing magazine homepage page](./Assets/images/snapshot.png)",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafaErden/Smashing-Magazine-Homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SafaErden/Smashing-Magazine-Homepage/issues"
+  },
+  "homepage": "https://github.com/SafaErden/Smashing-Magazine-Homepage#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
