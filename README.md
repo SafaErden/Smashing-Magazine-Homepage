@@ -1,6 +1,6 @@
 # Smashing-Magazine-Homepage
 A replica of the smashing magazine homepage
-![A Snapshot of smashing magazine homepage page](./Assets/images/snapshot.png)
+![A Snapshot of smashing magazine homepage page](./Assets/images/snapshot.PNG)
 
 ## The major features in this project are:
 
