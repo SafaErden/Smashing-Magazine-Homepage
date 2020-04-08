@@ -16,7 +16,7 @@ A replica of the smashing magazine homepage
 
 ## Live Demo
 
-* [live demo](https://raw.githack.com/SafaErden/Smashing-Magazine-Homepage/homepage/index.html)
+* [live demo](https://raw.githack.com/SafaErden/Smashing-Magazine-Homepage/master/index.html)
 
 ## Getting Started
 
