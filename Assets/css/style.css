@@ -56,6 +56,11 @@ header .nav-bar {
   font-style: italic;
 }
 
+.nav-bar-contents li {
+  max-width: 115px;
+  padding-right: 20px;
+}
+
 .nav-bar button {
   width: 121px;
   height: 49px;
@@ -63,34 +68,40 @@ header .nav-bar {
   background-color: rgb(112, 106, 106);
   color: #fff;
   border-radius: 10px;
-  margin: 40px 0 0 30px;
+  margin: 40px 0 0 60px;
 }
 
 /* section 1 */
 
 .aricle-1 {
-  grid-area: a1;
+  /* grid-area: a1; */
   background-color: darkgray;
   box-sizing: border-box;
 }
 
 .aricle-2 {
-  grid-area: a2;
+  /* grid-area: a2; */
   background-color: gray;
   box-sizing: border-box;
 }
 
 .aricle-3 {
-  grid-area: a3;
+  /* grid-area: a3; */
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+.aricle-4 {
+  /* grid-area: a3; */
   background-color: darkgray;
   box-sizing: border-box;
 }
 
 .section-1 {
-  min-height: 80vh;
+  min-height: 200vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "a1 a2 a3";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -471,7 +482,7 @@ footer ul {
 }
 
 footer ul li {
-  display: inline;
+  display: inline-block;
   padding: 20px;
   line-height: 1.5;
 }
