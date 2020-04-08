@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(112, 106, 106);
+}
+
+header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.nav-bar .logo {
+  width: 211px;
+  height: 75px;
+  margin: 20px 15px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-bar-contents img {
+  width: 30px;
+}
+
+.nav-bar-contents h2 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar-contents p {
+  color: #fff;
+  font-style: italic;
+}
+
+.nav-bar button {
+  width: 121px;
+  height: 49px;
+  border: 4px solid #fff;
+  background-color: rgb(112, 106, 106);
+  color: #fff;
+  border-radius: 10px;
+  margin: 40px 0 0 60px;
+}
+
+/* section 1 */
+
+.aricle-1 {
+  /* grid-area: a1; */
+  background-color: darkgray;
+  box-sizing: border-box;
+}
+
+.aricle-2 {
+  /* grid-area: a2; */
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+.aricle-3 {
+  /* grid-area: a3; */
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+.aricle-4 {
+  /* grid-area: a3; */
+  background-color: darkgray;
+  box-sizing: border-box;
+}
+
+.section-1 {
+  min-height: 200vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.section-1 article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.section-1-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.avatar img {
+  width: 85px;
+  height: 85px;
+}
+
+.avatar-name {
+  font-size: 23px;
+  color: white;
+}
+
+.section-1-content {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  max-width: 400px;
+}
+
+/* section 2 */
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.section-2 article {
+  width: 316px;
+  height: 433px;
+  padding: 30px 40px;
+  background-color: #706a6a;
+}
+
+.section-2 article h4 {
+  padding-bottom: 20px;
+  color: black;
+}
+
+/* section3 */
+.section-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 60px 10px 60px;
+  background-color: gray;
+  margin: 20px 0;
+}
+
+.section-3 article {
+  width: 316px;
+  height: 433px;
+  padding: 30px 40px;
+}
+
+.section-3 article h4 {
+  padding-bottom: 20px;
+}
+
+.section-img {
+  background-color: dimgray;
+  border-radius: 20px;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-img img {
+  width: 258px;
+  height: 290px;
+  box-sizing: border-box;
+}
+
+.section-img h1 {
+  font-family: "Spinnaker", sans-serif;
+  color: wheat;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section-img button {
+  font-family: "Spinnaker", sans-serif;
+  color: blue;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section-4 {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 a {
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 3px solid dimgray;
+}
+
+.section-2 article a {
+  color: black;
+}
+
+.section-3 article a {
+  color: black;
+}
+
+/* section 5 */
+
+.section-5 {
+  box-sizing: border-box;
+  text-align: center;
+  height: 1000px;
+  width: 100%;
+  background-color: grey;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.section-5 #header {
+  font-size: 60px;
+  font-weight: 800;
+  padding: 20px 0 0 0;
+  color: #fff;
+}
+
+.section-5 #header-2 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #182f23;
+}
+
+.section-5 #second {
+  font-size: 30px;
+  width: 800px;
+  margin: 20px auto;
+}
+
+.section-5 button {
+  padding: 10px;
+  width: 350px;
+  height: 60px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* section 6 */
+
+.section-6 {
+  padding: 40px;
+}
+
+.section-6 .person-image {
+  margin: 25px;
+  border: 8px solid dimgray;
+  border-radius: 5px;
+  transform: rotate(-11deg);
+}
+
+.person-details p {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: "Spinnaker", sans-serif;
+}
+
+/* section 7 */
+.section-7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 50px 0;
+}
+
+.section-7 article {
+  padding: 20px;
+}
+
+.section-7-info h2 {
+  margin: 20px 0;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-2 article h2 {
+  padding-bottom: 20px;
+  font-family: "Spinnaker", sans-serif;
+}
+
+.section-3 article h2 {
+  padding-bottom: 20px;
+  font-family: "Spinnaker", sans-serif;
+}
+
+.section-7-info p {
+  font-size: 25px;
+}
+
+.section-7-info {
+  width: 75%;
+  margin-left: 20px;
+}
+
+/* section-8 */
+.section-8 {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: gray;
+  padding: 30px 50px;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 20px 0;
+  position: relative;
+}
+
+.section-8 h1 {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.section-8 p {
+  margin: 20px 0;
+  max-width: 75%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-8 button {
+  margin: 20px 0;
+  padding: 10px;
+  width: 350px;
+  height: 60px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-8-img {
+  width: 200px;
+  height: 300px;
+  transform: rotate(-11deg);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.section-8-img:hover {
+  transform: rotate(0);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+/* section-9 */
+
+.section-9 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 50px 20px;
+}
+
+/* section-10 */
+
+.section-img-10 {
+  background-color: dimgray;
+  border-radius: 20px;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 50px auto;
+}
+
+.section-img-10 img {
+  width: 500px;
+  height: 600px;
+}
+
+.section-7 article img {
+  transform: rotate(-11deg);
+  border: 7px solid gray;
+  border-radius: 10px;
+}
+
+.section-10 h1 {
+  font-size: 45px;
+  font-family: "Spinnaker", sans-serif;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: dimgray;
+  width: 100%;
+  padding: 50px;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url(https://d33wubrfki0l68.cloudfront.net/c844337352cace40e2973b30e2ebefad4b0f55ad/efa8c/images/footer/tablet__left.svg);
+  background-position: left 15% bottom 2em;
+  background-size: 12em auto;
+  background-repeat: no-repeat;
+}
+
+footer h3 {
+  color: wheat;
+  padding: 20px;
+}
+
+.section-img h3 {
+  font-family: "Spinnaker", sans-serif;
+  color: wheat;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.person-details h3 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.section-8 h3 {
+  margin: 20px 0;
+}
+
+footer ul {
+  margin: 20px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.nav-bar-contents li {
+  max-width: 115px;
+  padding-right: 20px;
+}
+
+.nav-bar-contents ul li {
+  display: inline-block;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.section-9 ul li {
+  margin: 20px 0;
+  font-size: calc(0.95em + 0.2vw);
+  color: #006fc6;
+  text-decoration: underline;
+}
+
+footer span {
+  display: block;
+  line-height: 2;
+}
+
+.avatar-name span {
+  font-style: italic;
+}
